@@ -4,6 +4,8 @@
     <test name="RegressionTests">
         <classes>
             <class name="com.example.seleniumdemo.tests.LoginTest" />
+            <class name="com.example.seleniumdemo.tests.SearchTest" />
+
         </classes>
     </test>
 </suite>
