@@ -1,4 +1,4 @@
-package com.example.seleniumdemo;
+package test.java;
 import io.qameta.allure.testng.AllureTestNg;
 
 import org.testng.annotations.Listeners;
