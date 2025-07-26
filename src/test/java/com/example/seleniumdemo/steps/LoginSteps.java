@@ -1,7 +1,7 @@
-package steps;
+package com.example.seleniumdemo.steps;
 
 import org.openqa.selenium.WebDriver;
-import pages.LoginPage;
+import com.example.seleniumdemo.pages.LoginPage;
 
 public class LoginSteps {
     LoginPage loginPage;
