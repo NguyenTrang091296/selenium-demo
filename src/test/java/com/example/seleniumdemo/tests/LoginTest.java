@@ -1,4 +1,4 @@
-package test.java;
+package com.example.seleniumdemo.tests;
 import io.qameta.allure.testng.AllureTestNg;
 
 import org.testng.annotations.Listeners;
@@ -6,13 +6,13 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import java.time.Duration;
-import steps.LoginSteps;
+import com.example.seleniumdemo.steps.LoginSteps;
 
 
 @Listeners({ AllureTestNg.class })
 public class LoginTest {
     WebDriver driver;
-    LoginSteps loginSteps;
+     LoginSteps loginSteps;
 
     @BeforeMethod
     public void setUp() {

@@ -3,7 +3,7 @@
 <suite name="AutomationSuite">
     <test name="RegressionTests">
         <classes>
-            <class name="test.java.LoginTest" />
+            <class name="com.example.seleniumdemo.tests.LoginTest" />
         </classes>
     </test>
 </suite>
